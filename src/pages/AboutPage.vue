@@ -3,9 +3,9 @@ import { ref } from 'vue';
 import TeamCard from '../components/TeamCard.vue';
 
 const daftarTim = ref([
-  { nama: 'Faris', jabatan: 'Ketua Tim', inisial: 'A' },
-  { nama: 'Niccolo Terre', jabatan: 'Desain & UI/UX', inisial: 'S' },
-  { nama: 'Stephen Faulkner', jabatan: 'Logistik', inisial: 'R', image: 'https://placehold.co/150' },
+  { nama: 'Faris', jabatan: 'Ketua Tim', inisial: 'F' },
+  { nama: 'Niccolo Terre', jabatan: 'Desain & UI/UX', inisial: 'N' },
+  { nama: 'Stephen Faulkner', jabatan: 'Logistik', inisial: 'S', image: 'https://placehold.co/150' },
   { nama: 'Dimas', jabatan: 'Pengembangan Produk', inisial: 'D' },
   { nama: 'Rizky', jabatan: 'Pemasaran & Media Sosial', inisial: 'R' },
 ]);
