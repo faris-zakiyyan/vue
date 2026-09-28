@@ -12,7 +12,7 @@ defineProps({
     <h3>{{ nama }}</h3>
     <p>{{ jabatan }}</p>
   </div>
-</template>
+  </template>
 
 <style scoped>
 .team-card {
@@ -25,11 +25,10 @@ defineProps({
   min-width: 200px;
 }
 
-/* Avatar Lingkaran Sempurna */
 .avatar {
   width: 70px;
   height: 70px;
-  background-color: #4f46e5;
+  background-color: #e012fc;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;

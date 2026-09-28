@@ -3,9 +3,11 @@ import { ref } from 'vue';
 import TeamCard from '../components/TeamCard.vue';
 
 const daftarTim = ref([
-  { nama: 'Ahmad', jabatan: 'Ketua Tim', inisial: 'A' },
-  { nama: 'Siti', jabatan: 'Desain & UI/UX', inisial: 'S' },
-  { nama: 'Rian', jabatan: 'Logistik', inisial: 'R' }
+  { nama: 'Faris', jabatan: 'Ketua Tim', inisial: 'A' },
+  { nama: 'Niccolo Terre', jabatan: 'Desain & UI/UX', inisial: 'S' },
+  { nama: 'Stephen Faulkner', jabatan: 'Logistik', inisial: 'R', image: 'https://placehold.co/150' },
+  { nama: 'Dimas', jabatan: 'Pengembangan Produk', inisial: 'D' },
+  { nama: 'Rizky', jabatan: 'Pemasaran & Media Sosial', inisial: 'R' },
 ]);
 </script>
 
@@ -123,5 +125,9 @@ const daftarTim = ref([
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px;
 }
 </style>

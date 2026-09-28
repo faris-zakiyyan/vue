@@ -5,6 +5,14 @@
       <h1>Belanja Perlengkapan Sekolah, Gampang & Terpercaya</h1>
       <p>Dari kaos, topi, sampai tas sekolah — semua ada di satu tempat.</p>
       <router-link to="/product" class="btn-primary">Lihat Produk</router-link>
+      
+      <!-- Tambahan Video Promosi (Tahap 11) -->
+      <div class="video-container">
+        <video controls width="480" muted loop>
+          <source src="/video/promo-toko.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung pemutaran video.
+        </video>
+      </div>
     </section>
 
     <!-- Bagian Fitur -->
@@ -36,12 +44,14 @@
   color: #333;
 }
 
-/* Hero Section dengan Gradasi */
 .hero {
   background: linear-gradient(135deg, #37ff47, #02b145);
   color: white;
   padding: 80px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Supaya video otomatis berada di tengah */
 }
 
 .hero h1 {
@@ -55,7 +65,6 @@
   opacity: 0.9;
 }
 
-/* Tombol Berbentuk Pil dengan Efek Hover */
 .btn-primary {
   display: inline-block;
   background-color: white;
@@ -72,7 +81,19 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Features Section (3 Kolom Sejajar) */
+/* Styling tambahan khusus untuk video di Tahap 11 */
+.video-container {
+  margin-top: 30px;
+}
+
+video {
+  margin-top: 16px;
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .features {
   display: flex;
   gap: 20px;

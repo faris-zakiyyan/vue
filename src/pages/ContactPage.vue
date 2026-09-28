@@ -21,14 +21,14 @@
           <span class="icon">📞</span>
           <div>
             <strong>Telepon</strong>
-            <p>(022) 8888-4567</p>
+            <p>0895 6058 66615</p>
           </div>
         </div>
         <div class="info-item">
           <span class="icon">✉️</span>
           <div>
             <strong>Email</strong>
-            <p>koperasi@smkyadikasoreang.sch.id</p>
+            <p>buniiversity@gmail.com</p>
           </div>
         </div>
       </div>
