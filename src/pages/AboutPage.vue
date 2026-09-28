@@ -13,12 +13,11 @@ const daftarTim = ref([
 
 <template>
   <div class="about-page">
-    <!-- Banner -->
+    
     <section class="about-banner">
       <h1>Tentang Kami</h1>
     </section>
 
-    <!-- Bagian Cerita Kami (Layout 2 Kolom) -->
     <section class="story-section">
       <div class="story-text">
         <h2>Cerita Kami</h2>
@@ -35,7 +34,6 @@ const daftarTim = ref([
       </div>
     </section>
 
-    <!-- Bagian Tim Kami (Menggunakan v-for & TeamCard) -->
     <section class="team-section">
       <h2>Tim Kami</h2>
       <div class="team-grid">
@@ -68,7 +66,6 @@ const daftarTim = ref([
   font-size: 2rem;
 }
 
-/* Layout 2 Kolom untuk Cerita Kami */
 .story-section {
   display: flex;
   align-items: center;
@@ -107,7 +104,6 @@ const daftarTim = ref([
   font-weight: 500;
 }
 
-/* Bagian Tim Kami */
 .team-section {
   max-width: 1000px;
   margin: 0 auto 60px auto;

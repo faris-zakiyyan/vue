@@ -1,12 +1,11 @@
 <template>
   <div class="landing-page">
-    <!-- Bagian Hero -->
+
     <section class="hero">
       <h1>Belanja Perlengkapan Sekolah, Gampang & Terpercaya</h1>
       <p>Dari kaos, topi, sampai tas sekolah — semua ada di satu tempat.</p>
       <router-link to="/product" class="btn-primary">Lihat Produk</router-link>
       
-      <!-- Tambahan Video Promosi (Tahap 11) -->
       <div class="video-container">
         <video controls width="480" muted loop>
           <source src="/video/promo-toko.mp4" type="video/mp4" />
@@ -15,7 +14,6 @@
       </div>
     </section>
 
-    <!-- Bagian Fitur -->
     <section class="features">
       <div class="feature-card">
         <div class="icon">⭐</div>
@@ -51,7 +49,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Supaya video otomatis berada di tengah */
+  align-items: center; 
 }
 
 .hero h1 {
@@ -81,7 +79,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Styling tambahan khusus untuk video di Tahap 11 */
 .video-container {
   margin-top: 30px;
 }

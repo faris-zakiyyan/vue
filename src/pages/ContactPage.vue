@@ -1,13 +1,12 @@
 <template>
   <div class="contact-page">
-    <!-- Banner -->
+
     <section class="contact-banner">
       <h1>Hubungi Kami</h1>
     </section>
 
-    <!-- Layout 2 Kolom (Info & Formulir) -->
     <section class="contact-container">
-      <!-- Kolom Info Kontak -->
+      
       <div class="info-box">
         <h2>Info Kontak</h2>
         <div class="info-item">
@@ -33,7 +32,6 @@
         </div>
       </div>
 
-      <!-- Kolom Formulir Pesan -->
       <div class="form-box">
         <h2>Kirim Pesan</h2>
         <form @submit.prevent>
@@ -76,7 +74,7 @@
   font-size: 2rem;
 }
 
-/* Layout 2 Kolom Sejajar */
+
 .contact-container {
   display: flex;
   gap: 30px;
@@ -101,7 +99,6 @@
   font-size: 1.3rem;
 }
 
-/* Info Item Styling */
 .info-item {
   display: flex;
   gap: 15px;
@@ -125,7 +122,6 @@
   margin: 0;
 }
 
-/* Form Styling */
 .form-group {
   margin-bottom: 15px;
 }
@@ -156,7 +152,6 @@
   border-color: #4f46e5;
 }
 
-/* Tombol Kirim Bergaya Pil */
 .btn-submit {
   background-color: #4f46e5;
   color: white;
